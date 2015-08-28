@@ -1,0 +1,8 @@
+libxmlrpc-c++:
+    ubuntu:
+        apt:
+            packages: [libxmlrpc-c++8]
+libxmlrpc-c++-dev:
+    ubuntu:
+        apt:
+            packages: [libxmlrpc-c++8-dev]

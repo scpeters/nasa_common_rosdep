@@ -1,0 +1,16 @@
+flycapture-dev:
+    ubuntu:
+        apt:
+            packages: [libflycapture2, libflycapture2-dev, libflycapturegui2, libflycapturegui2-dev, libflycapture-c2, libflycapture-c2-dev, libflycapturegui-c2, libflycapturegui-c2-dev, libmultisync2, flycap]
+libmesasr-dev:
+    ubuntu:
+        apt:
+            packages: [libmesasr-dev]
+libxmlrpc-c++:
+    ubuntu:
+        apt:
+            packages: [libxmlrpc-c++4]
+libxmlrpc-c++-dev:
+    ubuntu:
+        apt:
+            packages: [libxmlrpc-c++4-dev]
