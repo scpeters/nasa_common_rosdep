@@ -102,3 +102,7 @@ python-scp:
     ubuntu:
         pip:
             packages: [scp]
+northwestlogic-dmadriver-4.7.0:
+    ubuntu:
+        apt:
+            packages: [northwestlogic-dmadriver-4.7.0-3.13.0-59-lowlatency]
