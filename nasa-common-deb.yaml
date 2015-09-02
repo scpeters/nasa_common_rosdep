@@ -1,4 +1,4 @@
 nasa_pyqtlib:
     ubuntu:
         apt:
-            packages: [nasa_pyqtlib]
+            packages: [nasa-pyqtlib]
