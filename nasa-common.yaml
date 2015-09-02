@@ -6,6 +6,14 @@ dkms:
     ubuntu:
         apt:
             packages: [dkms]
+libasound2:
+    ubuntu:
+        apt:
+            packages: [libasound2]
+libasound2-dev:
+    ubuntu:
+        apt:
+            packages: [libasound2-dev]
 liblzma:
     ubuntu:
         apt:
