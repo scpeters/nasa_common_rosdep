@@ -14,3 +14,11 @@ libxmlrpc-c++-dev:
     ubuntu:
         apt:
             packages: [libxmlrpc-c++4-dev]
+libyaml-cpp:
+    ubuntu:
+        apt:
+            packages: [libyaml-cpp0.3]
+libyaml-cpp-dev:
+    ubuntu:
+        apt:
+            packages: [libyaml-cpp-dev]
