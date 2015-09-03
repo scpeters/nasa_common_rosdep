@@ -14,7 +14,3 @@ libyaml-cpp-dev:
     ubuntu:
         apt:
             packages: [libyaml-cpp-dev]
-qtbase5-dev:
-    ubuntu:
-        apt:
-            packages: [qtbase5-dev]

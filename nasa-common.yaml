@@ -110,6 +110,10 @@ python-zmq-mdp:
     ubuntu:
         pip:
             packages: [pyzmq-mdp]
+qtbase5-dev:
+    ubuntu:
+        apt:
+            packages: [qtbase5-dev]
 scons:
     ubuntu:
         apt:
