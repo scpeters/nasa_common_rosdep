@@ -10,3 +10,7 @@ nasa_pyqtlib:
     ubuntu:
         apt:
             packages: [nasa-pyqtlib]
+nasa_common_cmake:
+    ubuntu:
+        apt:
+            packages: [nasa-common-cmake]
