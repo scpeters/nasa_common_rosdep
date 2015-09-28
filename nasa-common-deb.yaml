@@ -1,3 +1,11 @@
+nasa_common_cmake:
+    ubuntu:
+        apt:
+            packages: [nasa-common-cmake]
+nasa_common_logging:
+    ubuntu:
+        apt:
+            packages: [nasa-common-logging]
 nasa_pyqtlib:
     ubuntu:
         apt:
