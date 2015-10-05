@@ -22,6 +22,14 @@ liblzma-dev:
     ubuntu:
         apt:
             packages: [liblzma5-dev]
+libxmlrpc-c++-dev:
+    osx:
+        homebrew:
+            packages: [xmlrpc-c]
+libyaml-cpp:
+    osx:
+        homebrew:
+            packages: [yaml-cpp]
 libzmq:
     ubuntu:
         apt:
@@ -70,6 +78,10 @@ python-envoy:
     ubuntu:
         pip:
             packages: [envoy]
+python-h5py:
+    osx:
+        pip:
+            packages: [h5py]
 python-pip:
     ubuntu:
         apt:
@@ -83,6 +95,9 @@ python-psutil:
         pip:
             packages: [psutil]
 python-pyqtgraph:
+    osx:
+        pip:
+            packages: [pyqtgraph]
     ubuntu:
         apt:
             packages: [python-pyqtgraph]
@@ -95,6 +110,9 @@ python-qscintilla2:
         apt:
             packages: [python-qscintilla2]
 python-qt4:
+    osx:
+        homebrew:
+            packages: [pyqt]
     ubuntu:
         apt:
             packages: [python-qt4]
