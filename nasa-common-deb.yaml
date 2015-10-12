@@ -10,3 +10,7 @@ nasa_pyqtlib:
     ubuntu:
         apt:
             packages: [nasa-pyqtlib]
+rttlua_completion:
+    ubuntu:
+        apt:
+            packages: [rttlua-completion]
