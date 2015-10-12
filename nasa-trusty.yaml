@@ -17,4 +17,5 @@ libyaml-cpp-dev:
 lua-posix:
     ubuntu:
         apt:
-            package: [lua-posix]
+            packages: [lua-posix]
+
