@@ -14,3 +14,7 @@ rttlua_completion:
     ubuntu:
         apt:
             packages: [rttlua-completion]
+ui_builder:
+    ubuntu:
+        apt:
+            packages: [ui-builder]
