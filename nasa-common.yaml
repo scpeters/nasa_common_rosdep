@@ -6,10 +6,6 @@ dkms:
     ubuntu:
         apt:
             packages: [dkms]
-gazebo4:
-    ubuntu:
-        apt:
-            packages: [gazebo4]
 libasound2:
     ubuntu:
         apt:
