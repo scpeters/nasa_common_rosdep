@@ -1,0 +1,120 @@
+debsums:
+    ubuntu:
+        apt:
+            packages: [debsums]
+dkms:
+    ubuntu:
+        apt:
+            packages: [dkms]
+libasound2:
+    ubuntu:
+        apt:
+            packages: [libasound2]
+libasound2-dev:
+    ubuntu:
+        apt:
+            packages: [libasound2-dev]
+liblzma:
+    ubuntu:
+        apt:
+            packages: [liblzma5]
+liblzma-dev:
+    ubuntu:
+        apt:
+            packages: [liblzma5-dev]
+libzmq:
+    ubuntu:
+        apt:
+            packages: [libzmq1]
+libzmq-dev:
+    ubuntu:
+        apt:
+            packages: [libzmq-dev]
+liblzo:
+    ubuntu:
+        apt:
+            packages: [lzop, liblzo2-2]
+liblzo-dev:
+    ubuntu:
+        apt:
+            packages: [liblzo2-dev]
+libprotobuf:
+    ubuntu:
+        apt:
+            packages: [libprotobuf8]
+libprotobuf-dev:
+    ubuntu:
+        apt:
+            packages: [libprotobuf-dev, protobuf-compiler]
+lm-sensors:
+    ubuntu:
+        apt:
+            packages: [lm-sensors]
+northwestlogic-dmadriver-4.7.0:
+    ubuntu:
+        apt:
+            packages: [northwestlogic-dmadriver-4.7.0-3.13.0-59-lowlatency]
+pyqt4-dev-tools:
+    ubuntu:
+        apt:
+            packages: [pyqt4-dev-tools]
+python-avahi:
+    ubuntu:
+        apt:
+            packages: [python-avahi]
+python-couchdb:
+    ubuntu:
+        apt:
+            packages: [python-couchdb]
+python-envoy:
+    ubuntu:
+        pip:
+            packages: [envoy]
+python-pip:
+    ubuntu:
+        apt:
+            packages: [python-pip]
+python-protobuf:
+    ubuntu:
+        apt:
+            packages: [python-protobuf]
+python-psutil:
+    ubuntu:
+        pip:
+            packages: [psutil]
+python-pyqtgraph:
+    ubuntu:
+        apt:
+            packages: [python-pyqtgraph]
+python-PySensors:
+    ubuntu:
+        pip:
+            packages: [PySensors]
+python-qscintilla2:
+    ubuntu:
+        apt:
+            packages: [python-qscintilla2]
+python-qt4:
+    ubuntu:
+        apt:
+            packages: [python-qt4]
+python-scp:
+    ubuntu:
+        pip:
+            packages: [scp]
+python-zmq:
+    ubuntu:
+        apt:
+            packages: [python-zmq]
+python-zmq-mdp:
+    ubuntu:
+        pip:
+            packages: [pyzmq-mdp]
+qtbase5-dev:
+    ubuntu:
+        apt:
+            packages: [qtbase5-dev]
+scons:
+    ubuntu:
+        apt:
+            packages: [scons]

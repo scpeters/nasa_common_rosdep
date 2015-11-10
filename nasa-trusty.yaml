@@ -1,0 +1,21 @@
+libxmlrpc-c++:
+    ubuntu:
+        apt:
+            packages: [libxmlrpc-c++8]
+libxmlrpc-c++-dev:
+    ubuntu:
+        apt:
+            packages: [libxmlrpc-c++8-dev]
+libyaml-cpp:
+    ubuntu:
+        apt:
+            packages: [libyaml-cpp0.5]
+libyaml-cpp-dev:
+    ubuntu:
+        apt:
+            packages: [libyaml-cpp-dev]
+lua-posix:
+    ubuntu:
+        apt:
+            packages: [lua-posix]
+

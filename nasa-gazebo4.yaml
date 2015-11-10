@@ -1,0 +1,8 @@
+gazebo4:
+    ubuntu:
+        apt:
+            packages: [gazebo4]
+gazebo_ros:
+    ubuntu:
+        apt:
+            packages: [ros-indigo-gazebo4-ros]
