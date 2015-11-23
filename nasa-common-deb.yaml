@@ -1,3 +1,11 @@
+fsm_utils:
+    ubuntu:
+        apt:
+            packages: [fsm-utils]
+hayai:
+    ubuntu:
+        apt:
+            packages: [hayai]
 nasa_common_cmake:
     ubuntu:
         apt:
