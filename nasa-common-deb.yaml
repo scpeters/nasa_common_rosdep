@@ -18,6 +18,10 @@ nasa_pyqtlib:
     ubuntu:
         apt:
             packages: [nasa-pyqtlib]
+rtmidi:
+    ubuntu:
+        apt:
+            packages: [rtmidi]
 rttlua_completion:
     ubuntu:
         apt:
