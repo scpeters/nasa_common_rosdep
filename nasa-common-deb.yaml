@@ -18,6 +18,10 @@ nasa_pyqtlib:
     ubuntu:
         apt:
             packages: [nasa-pyqtlib]
+robot_instance:
+    ubuntu:
+        apt:
+            packages: [robot-instance]
 rttlua_completion:
     ubuntu:
         apt:
