@@ -22,6 +22,10 @@ robot_instance:
     ubuntu:
         apt:
             packages: [robot-instance]
+rtmidi:
+    ubuntu:
+        apt:
+            packages: [rtmidi]
 rttlua_completion:
     ubuntu:
         apt:
