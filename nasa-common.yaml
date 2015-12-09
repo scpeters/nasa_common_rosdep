@@ -114,6 +114,10 @@ python-scp:
     ubuntu:
         pip:
             packages: [scp]
+python-xlwt:
+    ubuntu:
+        apt:
+            packages: [python-xlwt]
 python-zmq:
     ubuntu:
         apt:
