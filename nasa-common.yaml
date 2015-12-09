@@ -14,10 +14,6 @@ dkms:
     ubuntu:
         apt:
             packages: [dkms]
-flake8:
-    ubuntu:
-        pip:
-            packages: [flake8]
 kwstyle:
     ubuntu:
         apt:
