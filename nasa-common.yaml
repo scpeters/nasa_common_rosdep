@@ -14,6 +14,10 @@ dkms:
     ubuntu:
         apt:
             packages: [dkms]
+google-mock:
+    ubuntu:
+        apt:
+            packages: [google-mock]
 kwstyle:
     ubuntu:
         apt:
