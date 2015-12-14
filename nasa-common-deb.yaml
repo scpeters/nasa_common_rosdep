@@ -6,6 +6,14 @@ hayai:
     ubuntu:
         apt:
             packages: [hayai]
+lua_inspect:
+    ubuntu:
+        apt:
+            packages: [lua-inspect]
+nasa_code_analysis_scripts:
+    ubuntu:
+        apt:
+            packages: [nasa-code-analysis-scripts]
 nasa_common_cmake:
     ubuntu:
         apt:
@@ -14,6 +22,14 @@ nasa_common_logging:
     ubuntu:
         apt:
             packages: [nasa-common-logging]
+nasa_common_logging_rtt:
+    ubuntu:
+        apt:
+            packages: [nasa-common-logging-rtt]
+nasa_common_rtt:
+    ubuntu:
+        apt:
+            packages: [nasa-common-rtt]
 nasa_pyqtlib:
     ubuntu:
         apt:
@@ -22,6 +38,14 @@ robot_instance:
     ubuntu:
         apt:
             packages: [robot-instance]
+robot_instance_rtt:
+    ubuntu:
+        apt:
+            packages: [robot-instance-rtt]
+ros_utils:
+    ubuntu:
+        apt:
+            packages: [ros-utils]
 rtmidi:
     ubuntu:
         apt:
@@ -30,7 +54,15 @@ rttlua_completion:
     ubuntu:
         apt:
             packages: [rttlua-completion]
+srv2param:
+    ubuntu:
+        apt:
+            packages: [srv2param]
 ui_builder:
     ubuntu:
         apt:
             packages: [ui-builder]
+ultra_plotter:
+    ubuntu:
+        apt:
+            packages: [ultra-plotter]
