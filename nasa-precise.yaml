@@ -22,6 +22,10 @@ libyaml-cpp-dev:
     ubuntu:
         apt:
             packages: [libyaml-cpp-dev]
+lua-posix:
+    ubuntu:
+        apt:
+            packages: [liblua5.1-posix1]
 python-flake8:
     ubuntu:
         pip:
