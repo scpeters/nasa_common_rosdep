@@ -38,14 +38,10 @@ liblzma-dev:
     ubuntu:
         apt:
             packages: [liblzma5-dev]
-libzmq:
+libmesasr-dev:
     ubuntu:
         apt:
-            packages: [libzmq1]
-libzmq-dev:
-    ubuntu:
-        apt:
-            packages: [libzmq-dev]
+            packages: [libmesasr-dev]
 liblzo:
     ubuntu:
         apt:
@@ -62,6 +58,14 @@ libprotobuf-dev:
     ubuntu:
         apt:
             packages: [libprotobuf-dev, protobuf-compiler]
+libzmq:
+    ubuntu:
+        apt:
+            packages: [libzmq1]
+libzmq-dev:
+    ubuntu:
+        apt:
+            packages: [libzmq-dev]
 lm-sensors:
     ubuntu:
         apt:
