@@ -10,6 +10,10 @@ lua_inspect:
     ubuntu:
         apt:
             packages: [lua-inspect]
+luabit:
+    ubuntu:
+        apt:
+            packages: [luabit]
 nasa_code_analysis_scripts:
     ubuntu:
         apt:
@@ -50,6 +54,10 @@ rtmidi:
     ubuntu:
         apt:
             packages: [rtmidi]
+rtt_utils:
+    ubuntu:
+        apt:
+            packages: [rtt-utils]
 rttlua_completion:
     ubuntu:
         apt:
