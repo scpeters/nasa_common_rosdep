@@ -22,3 +22,7 @@ libyaml-cpp-dev:
     ubuntu:
         apt:
             packages: [libyaml-cpp-dev]
+python-flake8:
+    ubuntu:
+        pip:
+            packages: [flake8]
