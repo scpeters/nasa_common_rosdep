@@ -105,6 +105,7 @@ python-pyqtgraph:
 python-PySensors:
     ubuntu:
         pip:
+            depends: [lm-sensors]
             packages: [PySensors]
 python-qscintilla2:
     ubuntu:
