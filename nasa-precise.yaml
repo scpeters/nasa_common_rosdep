@@ -2,10 +2,6 @@ flycapture-dev:
     ubuntu:
         apt:
             packages: [libflycapture2, libflycapture2-dev, libflycapturegui2, libflycapturegui2-dev, libflycapture-c2, libflycapture-c2-dev, libflycapturegui-c2, libflycapturegui-c2-dev, libmultisync2, flycap]
-libmesasr-dev:
-    ubuntu:
-        apt:
-            packages: [libmesasr-dev]
 libxmlrpc-c++:
     ubuntu:
         apt:
@@ -22,3 +18,11 @@ libyaml-cpp-dev:
     ubuntu:
         apt:
             packages: [libyaml-cpp-dev]
+lua-posix:
+    ubuntu:
+        apt:
+            packages: [liblua5.1-posix1]
+python-flake8:
+    ubuntu:
+        pip:
+            packages: [flake8]

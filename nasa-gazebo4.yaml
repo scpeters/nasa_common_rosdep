@@ -6,3 +6,7 @@ gazebo_ros:
     ubuntu:
         apt:
             packages: [ros-indigo-gazebo4-ros]
+gazebo_ros_control:
+    ubuntu:
+        apt:
+            packages: [ros-indigo-gazebo4-ros-control]

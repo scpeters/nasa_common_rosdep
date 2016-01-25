@@ -1,3 +1,11 @@
+cccc:
+    ubuntu:
+        apt:
+            packages: [cccc]
+cppcheck:
+    ubuntu:
+        apt:
+            packages: [cppcheck]
 debsums:
     ubuntu:
         apt:
@@ -6,6 +14,14 @@ dkms:
     ubuntu:
         apt:
             packages: [dkms]
+google-mock:
+    ubuntu:
+        apt:
+            packages: [google-mock]
+kwstyle:
+    ubuntu:
+        apt:
+            packages: [kwstyle]
 libasound2:
     ubuntu:
         apt:
@@ -22,14 +38,10 @@ liblzma-dev:
     ubuntu:
         apt:
             packages: [liblzma5-dev]
-libzmq:
+libmesasr-dev:
     ubuntu:
         apt:
-            packages: [libzmq1]
-libzmq-dev:
-    ubuntu:
-        apt:
-            packages: [libzmq-dev]
+            packages: [libmesasr-dev]
 liblzo:
     ubuntu:
         apt:
@@ -46,6 +58,14 @@ libprotobuf-dev:
     ubuntu:
         apt:
             packages: [libprotobuf-dev, protobuf-compiler]
+libzmq:
+    ubuntu:
+        apt:
+            packages: [libzmq1]
+libzmq-dev:
+    ubuntu:
+        apt:
+            packages: [libzmq-dev]
 lm-sensors:
     ubuntu:
         apt:
@@ -89,6 +109,7 @@ python-pyqtgraph:
 python-PySensors:
     ubuntu:
         pip:
+            depends: [lm-sensors]
             packages: [PySensors]
 python-qscintilla2:
     ubuntu:
@@ -102,6 +123,10 @@ python-scp:
     ubuntu:
         pip:
             packages: [scp]
+python-xlwt:
+    ubuntu:
+        apt:
+            packages: [python-xlwt]
 python-zmq:
     ubuntu:
         apt:
@@ -118,3 +143,7 @@ scons:
     ubuntu:
         apt:
             packages: [scons]
+valgrind:
+    ubuntu:
+        apt:
+            packages: [valgrind]
