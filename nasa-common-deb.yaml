@@ -38,14 +38,6 @@ nasa_pyqtlib:
     ubuntu:
         apt:
             packages: [nasa-pyqtlib]
-robot_instance:
-    ubuntu:
-        apt:
-            packages: [robot-instance]
-robot_instance_rtt:
-    ubuntu:
-        apt:
-            packages: [robot-instance-rtt]
 ros_utils:
     ubuntu:
         apt:
@@ -62,15 +54,7 @@ rttlua_completion:
     ubuntu:
         apt:
             packages: [rttlua-completion]
-srv2param:
-    ubuntu:
-        apt:
-            packages: [srv2param]
 ui_builder:
     ubuntu:
         apt:
             packages: [ui-builder]
-ultra_plotter:
-    ubuntu:
-        apt:
-            packages: [ultra-plotter]
