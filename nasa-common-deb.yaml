@@ -1,3 +1,7 @@
+control_utils:
+    ubuntu:
+        apt:
+            packages: [control-utils]
 fsm_utils:
     ubuntu:
         apt:
