@@ -1,0 +1,12 @@
+gazebo7:
+    ubuntu:
+        apt:
+            packages: [gazebo7]
+gazebo_ros:
+    ubuntu:
+        apt:
+            packages: [ros-indigo-gazebo7-ros]
+gazebo_ros_control:
+    ubuntu:
+        apt:
+            packages: [ros-indigo-gazebo7-ros-control]
